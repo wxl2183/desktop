@@ -1,0 +1,44 @@
+题2.4 已知“int a=2,b=3;float x=3.5,y=2.5;”,请写出表达式x+a%3*int(x+y)%2/4的运行结果，并指出表达式运算结果的类型。运算结果编程测试运行。
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a=3,b=5;
+	float x=3.5,y=2.5;
+	cout<<x+a%3*int(x+y)%2/4<<endl;
+	return 0;
+	}
+  
+  二．习题2.6已知”int a=8. n=5;”，请思考写出下面表达式运算结束后，变量a, n以及表达式的值，然后编程验证之。
+1.（a+=a）
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a=8,n=5;
+	a+=a;
+	cout<<a<<endl;
+	return 0;
+	}
+2.a-=a
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a=8,n=5;
+	a-=a;
+	cout<<a<<endl;
+	return 0;
+	}
+  3.a*=2+3
+  #include <iostream>
+using namespace std;
+int main()
+{
+	int a=8,n=5;
+	a*=2+3;
+	cout<<n<<endl;
+	return 0;
+	}
+  
